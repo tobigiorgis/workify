@@ -2,98 +2,98 @@ const data = [
     {
         name: "AngelList",
         description: "",
-        filter:"popular",
-        link: "https://angel.co",
-        image:"",
+        filter:"populars",
+        link: "https://angel.co)",
+        image:"./images/angel.jpg",
         id: '1'
     },
     {
         name: "Mashable",
         description: "",
-        filter:"popular",
+        filter:"populars",
         link: "http://jobs.mashable.com/jobs",
-        image:"",
+        image:"./images/mashable.jpg",
         id: '2'
     },
     {
         name: "Stack Overflow",
         description: "",
-        filter:"popular",
+        filter:"populars",
         link: "http://stackoverflow.com/jobs",
-        image:"",
+        image:"./images/stov.png",
         id: '3'
     },
     {
-        name: "linkedIn",
+        name: "Linked in",
         description: "",
-        filter:"popular",
+        filter:"populars",
         link: " http://linkedIn.com",
-        image:"",
+        image:"./images/li.png",
         id: '4'
     },
     {
         name: "Glassdoor",
         description: "",
-        filter:"popular",
+        filter:"populars",
         link: "http://glassdoor.com",
-        image:"",
+        image:"./images/glasdoor.png",
         id: '5'
     },
     {
         name: "Dice",
         description: "",
-        filter:"popular",
+        filter:"populars",
         link: "http://dice.com",
-        image:"",
+        image:"./images/dice.png",
         id: '6'
     },
 
     {
         name: "Monster",
         description: "",
-        filter:"popular",
+        filter:"populars",
         link: "http://monster.com",
-        image:"",
+        image:"./images/monster.png",
         id: '7'
     },
     {
         name: "Simply Hired",
         description: "",
-        filter:"popular",
+        filter:"populars",
         link: "http://simplyhired.com",
-        image:"",
+        image:"./images/sh.png",
         id: '8'
     },
     {
         name: "Toptal",
         description: "",
-        filter:"popular",
+        filter:"populars",
         link: "https://toptal.com",
-        image:"",
+        image:"./images/toptal.jpg",
         id: '9'
     },
     {
         name: "Hired",
         description: "",
-        filter:"popular",
+        filter:"populars",
         link: "https://hired.com",
-        image:"",
+        image:"./images/hired.png",
         id: '10'
     },
     {
         name: "The Ladders",
         description: "",
-        filter:"popular",
+        filter:"populars",
         link: "https://www.theladders.com/",
-        image:"",
+        image:"./images/tl.png",
         id: '11'
     },
     {
         name: "CrunchBoard",
         description: "",
-        filter:"popular",
+        filter:"populars",
         link: "https://www.crunchboard.com/jobs",
-        image:"",
+        image:"./images/cb.png",
         id: '12'
     },
     {
@@ -101,7 +101,7 @@ const data = [
         description: "",
         filter:"remote",
         link: "http://remoteok.io/",
-        image:"",
+        image:"./images/ro.png",
         id: '13'
     },
     {
@@ -109,7 +109,7 @@ const data = [
         description: "",
         filter:"remote",
         link: "http://stackoverflow.com/jobs/remote-developer-jobs",
-        image:"",
+        image:"./images/stov.png",
         id: '14'
     },
     {
@@ -117,7 +117,7 @@ const data = [
         description: "",
         filter:"remote",
         link: "http://flexjobs.com",
-        image:"",
+        image:"./images/fj.png",
         id: '15'
     },
     {
@@ -125,7 +125,7 @@ const data = [
         description: "",
         filter:"remote",
         link: "http://weworkremotely.com",
-        image:"",
+        image:"./images/wwr.jpg",
         id: '16'
     },
     {
@@ -133,7 +133,7 @@ const data = [
         description: "",
         filter:"remote",
         link: "http://workingnomads.co/remote-development-jobs",
-        image:"",
+        image:"./images/wn.jpg",
         id: '17'
     },
     {
@@ -141,7 +141,7 @@ const data = [
         description: "",
         filter:"remote",
         link: "https://remote.co/remote-jobs/developer/",
-        image:"",
+        image:"./images/rco.png",
         id: '18'
     },
     {
@@ -149,7 +149,7 @@ const data = [
         description: "",
         filter:"remote",
         link: "http://remoters.net/jobs/software-development",
-        image:"",
+        image:"./images/remoters.png",
         id: '19'
     },
     {
@@ -157,7 +157,7 @@ const data = [
         description: "",
         filter:"remote",
         link: "http://jsremotely.com",
-        image:"",
+        image:"./images/jsr.jpg",
         id: '20'
     },
     {
@@ -165,7 +165,7 @@ const data = [
         description: "",
         filter:"remote",
         link: "http://frontendremotejobs.com",
-        image:"",
+        image:"./images/fe.png",
         id: '21'
     },
     {
@@ -173,7 +173,7 @@ const data = [
         description: "",
         filter:"remote",
         link: "https://dailyremote.com",
-        image:"",
+        image:"./images/drem.png",
         id: '22'
     },
     {
@@ -181,7 +181,7 @@ const data = [
         description: "",
         filter:"remote",
         link: "https://remotive.io/remote-jobs/software-dev",
-        image:"",
+        image:"./images/remotive.png",
         id: '23'
     },
     {
@@ -189,7 +189,7 @@ const data = [
         description: "",
         filter:"remote",
         link: "http://outsourcely.com/remote-web-development-jobs",
-        image:"",
+        image:"./images/outs.png",
         id: '24'
     },
     {
@@ -197,7 +197,7 @@ const data = [
         description: "",
         filter:"remote",
         link: "https://pangian.com/job-travel-remote",
-        image:"",
+        image:"./images/pangian.jpg",
         id: '25'
     },
     {
@@ -205,7 +205,7 @@ const data = [
         description: "",
         filter:"remote",
         link: "http://remotetalent.co/jobs",
-        image:"",
+        image:"./images/rt.png",
         id: '26'
     },
     {
@@ -213,7 +213,7 @@ const data = [
         description: "",
         filter:"remote",
         link: "https://justremote.co/remote-developer-jobs",
-        image:"",
+        image:"./images/jr.png",
         id: '27'
     },
     {
@@ -221,7 +221,7 @@ const data = [
         description: "",
         filter:"remote",
         link: "https://remoteleaf.com",
-        image:"",
+        image:"./images/rl.png",
         id: '28'
     },
     {
@@ -229,7 +229,7 @@ const data = [
         description: "",
         filter:"remote",
         link: "https://sitepoint.com/jobs/",
-        image:"",
+        image:"./images/sitep.png",
         id: '29'
     },
     {
@@ -237,7 +237,7 @@ const data = [
         description: "",
         filter:"remote",
         link: "https://jsjobbs.com/remote-javascript-jobs/",
-        image:"",
+        image:"./images/jsjobbs.png",
         id: '30'
     },
     {
@@ -245,7 +245,7 @@ const data = [
         description: "",
         filter:"startups",
         link: "http://producthunt.com/jobs",
-        image:"",
+        image:"./images/ph.png",
         id: '31'
     },
     {
@@ -253,7 +253,7 @@ const data = [
         description: "",
         filter:"startups",
         link: "http://startuphire.com",
-        image:"",
+        image:"./images/sth.png",
         id: '32'
     },
     {
@@ -261,7 +261,7 @@ const data = [
         description: "",
         filter:"startups",
         link: "https://startup.jobs",
-        image:"",
+        image:"./images/sj.png",
         id: '33'
     },
     {
@@ -269,7 +269,7 @@ const data = [
         description: "",
         filter:"startups",
         link: " http://startupers.com",
-        image:"",
+        image:"./images/sters.jpg",
         id: '34'
     },
     {
@@ -277,7 +277,7 @@ const data = [
         description: "",
         filter:"startups",
         link: "http://news.ycombinator.com/jobs",
-        image:"",
+        image:"./images/yc.png",
         id: '35'
     },
     {
@@ -285,7 +285,7 @@ const data = [
         description: "",
         filter:"junior",
         link: "http://jrdevjobs.com",
-        image:"",
+        image:"./images/jrj.png",
         id: '36'
     },
     {
@@ -293,7 +293,7 @@ const data = [
         description: "",
         filter:"junior",
         link: "https://stackoverflow.com/jobs/junior-developer-jobs",
-        image:"",
+        image:"./images/stov.png",
         id: '37'
     }
 ]
