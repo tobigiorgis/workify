@@ -3,7 +3,7 @@ const data = [
         name: "AngelList",
         description: "",
         filter:"populars",
-        link: "https://angel.co)",
+        link: "https://angel.co",
         image:"./images/angel.jpg",
         id: '1'
     },

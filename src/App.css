@@ -152,7 +152,7 @@ transform: translateX(-90vw);
   margin: 30px;
   width: auto;
   display: inline-flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 20px;
@@ -162,6 +162,7 @@ transform: translateX(-90vw);
   animation-duration: 0.5s;
   animation-name: animate-pop;
   animation-timing-function: cubic-bezier(.26, .53, .74, 1.48);
+  cursor: pointer;
 }
 
 /* .webDiv:hover{
@@ -206,6 +207,7 @@ transform: translateX(-90vw);
 }
 
 .explore{
+  width: 20vw;
   border-radius: 5px;
   margin-top: 2vh;
   background-color: black;
