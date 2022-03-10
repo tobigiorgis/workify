@@ -1,11 +1,14 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { useEffect } from 'react'
 
 const Item = ({name, image, filter, description, link}) => {
     const newItem = {name, image, filter, description, link}
-    const redirect = () => {
-        window.location.href = newItem.link
-    }
+        
+        const redirect = () => {
+            window.location.replace(newItem.link)
+        }
+        
+        
     return (
         <div className='webDiv' onClick={redirect}>
                 <img src={newItem.image} alt={newItem.name} className='img'></img>
