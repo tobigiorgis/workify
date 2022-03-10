@@ -5,7 +5,7 @@ const Item = ({name, image, filter, description, link}) => {
     const newItem = {name, image, filter, description, link}
         
         const redirect = () => {
-            window.location.replace(newItem.link)
+            window.open(newItem.link)
         }
         
         
